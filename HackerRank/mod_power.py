@@ -1,0 +1,5 @@
+num = int(input())
+power = int(input())
+modulo = int(input())
+print(pow(num, power))
+print(pow(num, power,modulo))
