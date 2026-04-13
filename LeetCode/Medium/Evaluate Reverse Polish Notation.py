@@ -16,11 +16,8 @@ class Solution(object):
                     nums.append(val2*val1)
                 else:
                     val = float(val2)/val1
-                    if abs(val) < 0:
-                        nums.append(0)
-                    else:
-                        val = int(val)   
-                        nums.append(val)
+                    val = int(val)   
+                    nums.append(val)
         return nums[0]
 
          
